@@ -1,6 +1,6 @@
-Pwnforge: Automated Reverse Shell Generator
+# Pwnforge: Automated Reverse Shell Generator
 
-Features:
+# Features:
 
   •Multi-Platform Support: Pwnforge facilitates the creation of reverse shell payloads for both Bash and PowerShell, ensuring compatibility across diverse operating systems.
   
@@ -10,14 +10,14 @@ Features:
   
   •Flexible Payload Selection: Seamlessly switch between Bash and PowerShell payloads to suit varying target environments and preferences.
 
-Usage:
+# Usage:
   •Target Specification: Utilize the -i and -p options to define the target host and port respectively.
   
   •Base64 Encoding: Employ the -e flag to encode generated payloads in Base64, enhancing security and evasion capabilities.
   
   •PowerShell Payload: Activate the -ps flag to generate PowerShell-based reverse shell payloads.
 
-Example:
+# Example:
 
 python pwnforge.py -i 192.168.1.10 -p 4444 -e -ps
 
